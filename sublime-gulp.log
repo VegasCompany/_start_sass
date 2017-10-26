@@ -1,0 +1,136 @@
+Remember that you can report errors and get help in https://github.com/NicoSantangelo/sublime-gulp
+
+10-26-2017 23:39:
+(node:10264) [DEP0013] DeprecationWarning: Calling an asynchronous function without callback is deprecated.
+
+
+10-26-2017 23:49:
+C:\Users\ilya_jKEeY\Desktop\_start\.sublime-gulp-tmp.js:40
+	           .pipe(gulp.dest(dist.));
+	                                ^
+
+SyntaxError: Unexpected token )
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:588:28)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at requireGulp (C:\Users\ilya_jKEeY\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:28:16)
+
+
+10-26-2017 23:57:
+(node:11984) [DEP0013] DeprecationWarning: Calling an asynchronous function without callback is deprecated.
+
+
+10-27-2017 00:26:
+(node:1492) [DEP0013] DeprecationWarning: Calling an asynchronous function without callback is deprecated.
+
+
+10-27-2017 00:30:
+(node:6336) [DEP0013] DeprecationWarning: Calling an asynchronous function without callback is deprecated.
+
+
+10-27-2017 00:56:
+C:\Users\ilya_jKEeY\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:31
+        throw ex;
+        ^
+
+Error: Cannot find module 'gulp-cssnano'
+    at Function.Module._resolveFilename (module.js:527:15)
+    at Function.Module._load (module.js:476:23)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\ilya_jKEeY\Desktop\_start\.sublime-gulp-tmp.js:6:14)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+
+
+10-27-2017 01:05:
+C:\Users\ilya_jKEeY\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:31
+        throw ex;
+        ^
+
+TypeError: gulp.series is not a function
+    at Object.<anonymous> (C:\Users\ilya_jKEeY\Desktop\_start\.sublime-gulp-tmp.js:42:32)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at requireGulp (C:\Users\ilya_jKEeY\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:28:16)
+    at Object.<anonymous> (C:\Users\ilya_jKEeY\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:83:12)
+
+
+10-27-2017 01:05:
+C:\Users\ilya_jKEeY\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:31
+        throw ex;
+        ^
+
+TypeError: gulp.series is not a function
+    at Object.<anonymous> (C:\Users\ilya_jKEeY\Desktop\_start\.sublime-gulp-tmp.js:42:32)
+    at Module._compile (module.js:624:30)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at requireGulp (C:\Users\ilya_jKEeY\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:28:16)
+    at Object.<anonymous> (C:\Users\ilya_jKEeY\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:83:12)
+
+
+10-27-2017 01:45:
+C:\Users\ilya_jKEeY\Desktop\_start\.sublime-gulp-tmp.js:19
+gulp.task('serve', ['styles', 'scripts', 'imagemin'] function() {
+                                                   ^
+
+SyntaxError: missing ) after argument list
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:588:28)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at requireGulp (C:\Users\ilya_jKEeY\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:28:16)
+
+
+10-27-2017 01:45:
+(node:8236) [DEP0013] DeprecationWarning: Calling an asynchronous function without callback is deprecated.
+
+
+10-27-2017 01:47:
+(node:6224) [DEP0013] DeprecationWarning: Calling an asynchronous function without callback is deprecated.
+
+
+10-27-2017 01:48:
+(node:2664) [DEP0013] DeprecationWarning: Calling an asynchronous function without callback is deprecated.
+
+
+10-27-2017 01:49:
+C:\Users\ilya_jKEeY\Desktop\_start\.sublime-gulp-tmp.js:14
+gulp.task('default', function() {
+    ^
+
+SyntaxError: Unexpected token .
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:588:28)
+    at Object.Module._extensions..js (module.js:635:10)
+    at Module.load (module.js:545:32)
+    at tryModuleLoad (module.js:508:12)
+    at Function.Module._load (module.js:500:3)
+    at Module.require (module.js:568:17)
+    at require (internal/module.js:11:18)
+    at requireGulp (C:\Users\ilya_jKEeY\AppData\Roaming\Sublime Text 3\Packages\Gulp\write_tasks_to_cache.js:28:16)
